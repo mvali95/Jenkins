@@ -531,7 +531,7 @@ THE SOFTWARE.
     <dependency><!-- StAX implementation. See HUDSON-2547. -->
       <groupId>org.codehaus.woodstox</groupId>
       <artifactId>wstx-asl</artifactId>
-      <version>3.2.9</version>
+      <version>3.9.9-3</version>
     </dependency>
     <dependency>
       <groupId>org.jmdns</groupId>
@@ -808,7 +808,7 @@ THE SOFTWARE.
             <manifest>
               <mainClass>hudson.Main</mainClass>
               <addClasspath>true</addClasspath>
-              <classpathPrefix />
+              <classpathPrefix/>
             </manifest>
           </archive>
         </configuration>
